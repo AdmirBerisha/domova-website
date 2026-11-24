@@ -33,6 +33,8 @@ small,.note{font-size:var(--t-xs)}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--s2);min-height:var(--s6);padding:0 var(--s4);border-radius:var(--r);font:600 var(--t-s)/1 var(--ff);text-decoration:none;border:0;cursor:pointer;white-space:nowrap}
 .btn-c{background:var(--acc);color:#fff}
 .btn-c:hover{background:var(--acc-h)}
+.btn-o{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.btn-o:hover{background:var(--soft)}
 :focus-visible{outline:3px solid var(--acc);outline-offset:3px}
 /* nav + hero */
 .hero{background:var(--bg)}
@@ -43,6 +45,7 @@ small,.note{font-size:var(--t-xs)}
 .links a{text-decoration:none}
 .links a:hover{text-decoration:underline;text-underline-offset:4px}
 .nav .btn{padding:0 var(--s3);gap:.26em}
+.nav-cta{display:flex;align-items:center;gap:var(--s2)}
 .ht{display:grid;gap:0 var(--s6);padding-left:max(var(--gut),calc((100% - 1240px)/2));padding-right:var(--gut)}
 .ht-t{padding-block:var(--s5) var(--s6)}
 .ht-t{container-type:inline-size}
